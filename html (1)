@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8">
+    <h1 id="title">survey form</h1>
+    </head>
+    <fieldset> 
+  <p id="description">please fill out this form with the required information</p>
+  <form id="survey-form" method="post"></form>
+  <div id="survey-form">
+  <label for="first-name" id="name-label" >Enter Your First Name:</label>
+  <input id="name" name="first-name" placeholder="First-Name Here" required></input>
+  <label for="last-name" id="last-name-label">Enter Your Last Name:</label> 
+  <input id="last-name" name="last-name" placeholder="Last-Name Here" required ></input>
+  <label for="email" id="email-label">Enter Your Email:</label>
+  <input type="email" id="email" placeholder="Email here" required></input>
+  <label for="number" id="number-label">Enter Your Age(Years)</label>
+  <input placeholder="Age Here" required id="number" type="number" min="18" max="1000">
+  
+  <select id="dropdown">banana</select>
+ 
+ </fieldset>
+  
+  
+  </html>
